@@ -42,7 +42,7 @@ class SignUp extends Component {
     style={{width: '200px'}}
     />
     <br/>
-      <Button raised accent ripple>تسجيل.</Button>
+      <Button raised accent ripple>تسجيل</Button>
       <nbsp/>
       <br/>
       </div>

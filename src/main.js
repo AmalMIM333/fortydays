@@ -21,14 +21,15 @@ class Main extends Component {
   render() {
     return (
       <HashRouter>
-        <div>
-          <h1>Simple SPA</h1>
+        <div className= "pic">
+<br/>
           <ul className="header">
-          <li><NavLink to="/">الصفحة الرئيسية</NavLink></li>
           <li><NavLink to="/SignUp">تسجيل جديد</NavLink></li>
-            <li><NavLink to="/SignIn">تسجيل دخول</NavLink></li>
               <li><NavLink to="/Profile">الملف الشخصي</NavLink></li>
               <li><NavLink to="/Courses">البرامج التدريبية</NavLink></li>
+              <li><NavLink to="/">الصفحة الرئيسية</NavLink></li>
+              <li><NavLink to="/SignIn">تسجيل دخول</NavLink></li>
+
           </ul>
           <div className="content">
           <Route exact path="/" component={Home}/>
@@ -38,6 +39,11 @@ class Main extends Component {
                   <Route path="/Courses" component={courses}/>
           </div>
         </div>
+
+
+
+
+
       </HashRouter>
     );
   }

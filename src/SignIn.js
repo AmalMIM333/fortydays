@@ -8,14 +8,15 @@ class Signin extends Component {
 
 
       <div className="userName">
+      <div className="name">
       <br/>
-      <h2>User Name</h2>
+      <p>اسم المستخدم</p>
       <Textfield
     onChange={() => {}}
     label="Text..."
     style={{width: '200px'}}
     />
-<h2> Password</h2>
+<p> كلمة المرور</p>
     <Textfield
     onChange={() => {}}
     pattern="-?[0-9]*(\.[0-9]+)?"
@@ -28,6 +29,8 @@ class Signin extends Component {
 <Button raised accent ripple>تسجيل دخول</Button>
 <nbsp/>
 <br/>
+      </div>
+      <br/>
       </div>
 
 
