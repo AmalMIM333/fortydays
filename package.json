@@ -2,14 +2,21 @@
   "name": "fortydays",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://anadil95.github.io/fortydays/",
   "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "gh-pages": "^1.2.0",
     "react": "^16.4.2",
+    "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.2",
+    "react-mdl": "^1.11.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

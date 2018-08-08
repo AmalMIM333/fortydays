@@ -1,0 +1,59 @@
+
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #111;
+   text-align: right;
+  padding: 0;
+}
+ul.header li a {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.userName {
+background-color: white;
+margin-right: 300px;
+margin-left: 300px;
+border-style: solid;
+border-width: 1px;
+border-color: red;
+text-align: center;
+
+}
+.Register{
+
+  background-color: white;
+  margin-right: 300px;
+  margin-left: 300px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  text-align: right;
+
+}
+
+.s1{
+  margin-right: 30px;
+
+
+}
