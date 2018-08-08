@@ -1,8 +1,8 @@
 body{
-  background-image: url("http://www.getmdl.io/assets/demos/transparent.jpg");
+   background-image: url(https://github.com/AmalMIM333/fortydays/blob/master/src/logo.png?raw=true);
   background-repeat: no-repeat;
-  background-size: contain;
-
+   background-size: 200px 200px;
+background-position: center top;
 
 }
 h1, h2, p, ul, li {
@@ -20,12 +20,17 @@ ul.header li {
 
 }
 ul.header {
-  background-color: #111;
+  background-color: RosyBrown;
    text-align: right;
-  padding: 0;
+  padding-left:  10px;
+    padding-right:  10px;
+  margin-right: 200px;
+  margin-left: 200px;
 }
 ul.header li a {
-  color: #FFF;
+  color: white;
+  padding-left:  10px;
+    padding-right:  10px;
   font-weight: bold;
   text-decoration: none;
   padding: 20px;
@@ -40,6 +45,7 @@ ul.header li a {
   margin-bottom: 10px;
 }
 .userName {
+  margin-left: 30px;
 background-color: rgba(216,216,216,.25);
 margin-right: 300px;
 margin-left: 300px;
@@ -77,7 +83,43 @@ Button.Register {
 }
 
 .coursess {
-  margin-right: 300px;
-  margin-left: 300px;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+
+
+
+}
+.imageSize  {
+    height:200px;
+    width:200px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.detials{
+  height:200px;
+  width:200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: right;
+
+
+}
+
+.homee{
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 30px;
+  text-align: center;
+
+
+}
+.homee2{
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  text-align: right;
+  margin-bottom:  30px;
+
 
 }

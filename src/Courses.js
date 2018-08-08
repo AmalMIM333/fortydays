@@ -7,39 +7,21 @@ class Courses extends Component {
   render() {
     return (
 <div className = "coursess">
-      <Grid>
-      <Row>
-        <Col xs={1} md={2}>
-          <Thumbnail src="https://placekitten.com/150/150" alt="150">
-            <h3>Thumbnail label</h3>
-            <p>Description</p>
+      <Image src="https://www.eccouncil.org/wp-content/uploads/2011/05/Ethical-hacking-02-1.jpg" className="imageSize" thumbnail />
+        <Image src="https://www.eccouncil.org/wp-content/uploads/2011/05/Ethical-hacking-02-1.jpg" className="imageSize" thumbnail />
+          <Image src="https://www.eccouncil.org/wp-content/uploads/2011/05/Ethical-hacking-02-1.jpg" className="imageSize" thumbnail />
+
+<div className="detials">
+<h3>المخترق</h3> 
+            <p>يهدفُ المسار إلى تقديم أساسيّات الإختراق الأخلاقيللمتدرّب، إضافةً إلى تقنيّاتٍ في اختراق التطبيقات دون الخادم</p>
             <p>
-              <Button bsStyle="primary">Button</Button>
+              <Button bsStyle="primary">التسجيل</Button><nbsp/>
             </p>
-          </Thumbnail>
-        </Col>
-        <Col xs={6} md={4}>
-          <Thumbnail src="https://placekitten.com/150/150" alt="242x200">
-            <h3>Thumbnail label</h3>
-            <p>Description</p>
-            <p>
-              <Button bsStyle="primary">Button</Button><nbsp/>
-            </p>
-          </Thumbnail>
-        </Col>
-        <Col xs={6} md={4}>
-          <Thumbnail src="https://placekitten.com/150/150" alt="242x200">
-            <h3>Thumbnail label</h3>
-            <p>Description</p>
-            <p>
-              <Button bsStyle="primary">Button</Button><nbsp/>
-            </p>
-          </Thumbnail>
-        </Col>
-      </Row>
-    </Grid>
+</div>
 
     </div>
+
+
 
     );
   }
